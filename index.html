@@ -3,79 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Param Grewal's Portfolio and Resume">
+    <meta name="description" content="Param Grewal's Portfolio and Resume - Software Developer and Computer Science Student">
+    <meta name="keywords" content="Param Grewal, Software Developer, Computer Science, Portfolio, Resume">
+    <meta name="author" content="Param Grewal">
     <title>Param Grewal | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Param Grewal</h1>
         <p>Software Developer | Computer Science Student | Volunteer</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        </div>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm Param Grewal, a Computer Science student at Wilfrid Laurier University. I am passionate about software development and cloud technologies. I am also involved in volunteering, focusing on community work and supporting humanitarian causes.</p>
-        <p>I’m currently looking for internship opportunities in software development or cloud practice, aiming to apply my technical skills and experience in real-world settings.</p>
+        <div class="about-content">
+            <p>Hello! I'm Param Grewal, a Computer Science student at Wilfrid Laurier University. I am passionate about software development and cloud technologies. I am also involved in volunteering, focusing on community work and supporting humanitarian causes.</p>
+            <p>I'm currently looking for internship opportunities in software development or cloud practice, aiming to apply my technical skills and experience in real-world settings.</p>
+        </div>
     </section>
 
     <section id="resume">
         <h2>Resume</h2>
-        <h3>Education</h3>
-        <ul>
-            <li><strong>BSc Computer Science Honours</strong> – Wilfrid Laurier University (2024 - Present)</li>
-            <li><strong>B.Tech. IT-Honours</strong> – Ludhiana College of Engineering and Technology (2012 - 2016)</li>
-        </ul>
+        <div class="resume-grid">
+            <div class="resume-section">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <ul>
+                    <li><strong>BSc Computer Science Honours</strong> – Wilfrid Laurier University (2024 - Present)</li>
+                    <li><strong>B.Tech. IT-Honours</strong> – Ludhiana College of Engineering and Technology (2012 - 2016)</li>
+                </ul>
+            </div>
 
-        <h3>Experience</h3>
-        <ul>
-            <li><strong>Forklift Operator / Material Handler</strong> – Good Food Warehouse (2023 - 2024)</li>
-            <li><strong>Cable Operator</strong> – Fastway Transmissions (2016 - 2023)</li>
-            <li><strong>IT Technician</strong> – Various Sites (Dates)</li>
-            <li><strong>Customer Service Representative</strong> – Unipetro Investments Inc. (Dates)</li>
-        </ul>
+            <div class="resume-section">
+                <h3><i class="fas fa-briefcase"></i> Experience</h3>
+                <ul>
+                    <li><strong>Forklift Operator / Material Handler</strong> – Good Food Warehouse (2023 - 2024)</li>
+                    <li><strong>Cable Operator</strong> – Fastway Transmissions (2016 - 2023)</li>
+                    <li><strong>IT Technician</strong> – Various Sites</li>
+                    <li><strong>Customer Service Representative</strong> – Unipetro Investments Inc.</li>
+                </ul>
+            </div>
 
-        <h3>Skills</h3>
-        <ul>
-            <li>Programming Languages: Java, Python, Maple, MATLAB</li>
-            <li>Web Development: HTML, CSS, JavaScript</li>
-            <li>Cloud Technologies: Currently learning</li>
-            <li>Database Management: MySQL</li>
-            <li>Tools: Spring Boot, Angular</li>
-            <li>Certifications: CompTIA A+</li>
-        </ul>
+            <div class="resume-section">
+                <h3><i class="fas fa-code"></i> Skills</h3>
+                <ul>
+                    <li>Programming Languages: Java, Python, Maple, MATLAB</li>
+                    <li>Web Development: HTML, CSS, JavaScript</li>
+                    <li>Cloud Technologies: Currently learning</li>
+                    <li>Database Management: MySQL</li>
+                    <li>Tools: Spring Boot, Angular</li>
+                    <li>Certifications: CompTIA A+</li>
+                </ul>
+            </div>
 
-        <h3>Volunteer Experience</h3>
-        <ul>
-            <li>Volunteer at Khalsa Aid – Greater Toronto Area</li>
-            <li>Fundraiser Organizer – Ukrainian Refugees</li>
-            <li>Community Kitchen Assistant – Seva Food Bank Mississauga</li>
-        </ul>
+            <div class="resume-section">
+                <h3><i class="fas fa-hands-helping"></i> Volunteer Experience</h3>
+                <ul>
+                    <li>Volunteer at Khalsa Aid – Greater Toronto Area</li>
+                    <li>Fundraiser Organizer – Ukrainian Refugees</li>
+                    <li>Community Kitchen Assistant – Seva Food Bank Mississauga</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li><strong>Employee Management System</strong> – Spring Boot, Angular, MySQL</li>
-            <li><strong>Windows Application Development</strong> – Various Lab Projects</li>
+            <li>
+                <h3>Employee Management System</h3>
+                <p>Built using Spring Boot, Angular, and MySQL</p>
+                <div class="project-tags">
+                    <span>Spring Boot</span>
+                    <span>Angular</span>
+                    <span>MySQL</span>
+                </div>
+            </li>
+            <li>
+                <h3>Windows Application Development</h3>
+                <p>Various lab projects showcasing Windows application development skills</p>
+                <div class="project-tags">
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>Windows Forms</span>
+                </div>
+            </li>
         </ul>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>If you'd like to get in touch, feel free to email me at <a href="mailto:param@example.com">param@example.com</a>.</p>
+        <p>Interested in working together? Let's connect!</p>
+        <div class="contact-info">
+            <a href="mailto:param@example.com" class="contact-button">
+                <i class="fas fa-envelope"></i> Email Me
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-button">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-button">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Param Grewal | All rights reserved</p>
+        <p>&copy; 2024 Param Grewal | All rights reserved</p>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
     </footer>
 </body>
 </html>
