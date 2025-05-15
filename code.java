@@ -11,6 +11,6 @@ public class SumOfOddNumbers {
         }
         
         // Print the result
-        System.out.println("Sum of odd numbers from 1 to 100 is: " + sum);
+        System.out.println("Sum of odd numbers from 1 to 100 is: THis " + sum);
     }
 }
